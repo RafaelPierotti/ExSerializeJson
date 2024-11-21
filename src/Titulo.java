@@ -1,29 +1,6 @@
 public class Titulo {
-    private String nome;
-    private String autor;
-    private int anoDeLancamento;
+    private String nome = "The Last of Us";
+    private String autor = "Neil Druckmann";
+    private int anoDeLancamento = 2023;
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getAutor() {
-        return autor;
-    }
-
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
-
-    public int getAnoDeLancamento() {
-        return anoDeLancamento;
-    }
-
-    public void setAnoDeLancamento(int anoDeLancamento) {
-        this.anoDeLancamento = anoDeLancamento;
-    }
 }
